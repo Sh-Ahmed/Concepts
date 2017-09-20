@@ -32,7 +32,6 @@ namespace Concepts
             // Pass the product instance to Change.
             Change(item);
             Debug.WriteLine("Back in Main after Change, Not pointing to new object.  Name: {0}, ID: {1}\n", item.ItemName, item.ItemID);
-
         }
 
         private static int F0()
