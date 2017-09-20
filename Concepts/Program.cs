@@ -6,7 +6,6 @@ namespace Concepts
     delegate int TheSquarer(int x);
     class Program
     {
-        //Changed in remote repository
         static void Main(string[] args)
         {
             TheSquarer ts = x => x * x;
